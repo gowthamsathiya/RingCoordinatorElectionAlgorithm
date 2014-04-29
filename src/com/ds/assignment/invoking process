@@ -1,0 +1,22 @@
+		Process p1 = new Process();
+		p1.invokeProcess(0);
+		Thread.currentThread().sleep(2000);
+		
+		Process p2 = new Process();
+		p2.invokeProcess(1);
+		Thread.currentThread().sleep(2000);
+		
+		Process p3 = new Process();
+		p3.invokeProcess(2);
+		Thread.currentThread().sleep(2000);
+		
+		Process p4 = new Process();
+		p4.invokeProcess(3);
+		Thread.currentThread().sleep(2000);
+		
+		Process p5 = new Process();
+		p5.invokeProcess(4);
+		Thread.currentThread().sleep(2000);
+		
+		Process p6 = new Process();
+		p6.invokeProcess(5);
